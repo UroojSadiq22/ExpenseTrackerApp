@@ -1,34 +1,75 @@
-.container{
-    margin: 10px 10px;
-    padding: 20px 20px;
-    border: 1px solid white;
-    line-height: 35px;
+.container {
+  margin: 50px 50px;
+  padding: 20px;
+  border: 1px solid white;
+  line-height: 1.5;
+  border-radius: 10px;
+  background-color: #333; /* Optional: background color for better readability */
 }
-.container h1{
-    color: palegreen;
-    padding-bottom: 30px;
-}
-.list{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-.list label{
-    font-size: 20px;
-}
-.total{
-    background-color: palegreen;
-    padding: 1rem 5rem;
-    display: flex;
-    flex-direction: column;
-    border: 3px solid white;
-    color: black;
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.deletebtn{
-    border: none;
-    border-radius: 0.5rem;
-    margin: 1rem;
-    padding: 0.75rem 3.5rem;
-    background-color: rgb(109, 109, 221);
+
+.topheading {
+  color: rgb(133, 172, 197);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.toptotal {
+  background-color: rgb(133, 172, 197);
+  padding: 10px 20px;
+  color: black;
+}
+
+.listcontainer {
+  margin-top: 30px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-header {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.list-header div {
+  flex: 1;
+  text-align: center;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+}
+
+.list-item div {
+  flex: 1;
+  text-align: center;
+}
+
+.deletebtn {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(109, 109, 221);
+  color: white;
+  cursor: pointer;
+}
+
+.deletebtn:hover {
+  background-color: rgb(87, 87, 192);
+  transform: scale(1.05);
 }

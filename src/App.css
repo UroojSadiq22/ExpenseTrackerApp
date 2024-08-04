@@ -9,12 +9,28 @@
   }
   
   body {
-    background-color: black;
+    background-image: url(./ui/backgroundimage.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0 , 0, 0.6);
     color: white;
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    min-height :100vh;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     font-size: 1.6rem;
+    
+  }
+  .modules {
+    display: flex;
+  }
+  
+  .expense-form {
+    width: 28%; /* Fixed width for the form */
+    margin: 10px;
+  }
+  
+  .expense-list {
+    flex-grow: 1; /* Allow the list to take up the remaining space */
+    margin: 10px;
   }
   

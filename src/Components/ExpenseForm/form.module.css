@@ -1,32 +1,63 @@
-.form{
-    max-width: 50%;
-    margin: 10px 10px;
-    padding: 20px 20px;
-    border: 1px solid white;
-    line-height: 15px;
+.form {
+  width: 100%;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid white;
+  line-height: 15px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.textinput{
-    font-size: medium;
-    width: 100%;
-    max-width: 25rem;
-    margin: auto 1rem;
-    padding: 0.5rem 1.5rem;
-    color: black;
-    border: none;
-    border-radius: 0.5rem;
-    background: rgb(221, 217, 217);
+.heading {
+  font-size: 3rem;
+  margin: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: rgb(133, 172, 197);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
-.addbtn{
-    border: none;
-    border-radius: 0.5rem;
-    margin: 1rem;
-    padding: 0.75rem 3.5rem;
-    background-color: rgb(109, 109, 221);
+.textinputcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
 }
-.heading{
-    font-size: 3rem;
-    margin: 20px 10px;
-    margin-bottom: 5rem;
-    font-weight: 700;
-    color: palegreen;
+
+.textinput-container label {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.textinput {
+  font-size: 1.4rem;
+  width: 100%;
+  max-width: 25rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(221, 217, 217);
+}
+
+.textinput:focus {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 5px rgba(109, 109, 221, 0.8);
+  outline: none;
+}
+
+.addbtn {
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.75rem 2.5rem;
+  background-color: rgb(109, 109, 221);
+  color: white;
+  cursor: pointer;
+}
+
+.addbtn:hover {
+  background-color: rgb(87, 87, 192);
+  transform: scale(1.05);
 }
