@@ -60,25 +60,29 @@
   .modules {
     display: flex;
     flex-direction: column; /* Stack items vertically by default */
+    padding: 0 1rem; /* Add padding for mobile screens */
   }
   
   .expense-form,
   .expense-list {
     width: 100%; /* Full width on smaller screens */
-    margin: 10px;
+    margin: 1rem 0; /* Adjust margin for mobile screens */
   }
   
   @media (min-width: 768px) {
     .modules {
       flex-direction: row; /* Side by side layout on larger screens */
+      padding: 1rem 3rem; /* Remove padding for larger screens */
     }
   
     .expense-form {
-      width: 40%; /* Fixed width for the form on larger screens */
+      width: 45%; /* Fixed width for the form on larger screens */
+      margin: 10px; /* Restore margin for larger screens */
     }
   
     .expense-list {
       flex-grow: 1; /* Allow the list to take up the remaining space on larger screens */
+      margin: 10px; /* Restore margin for larger screens */
     }
   }
   
