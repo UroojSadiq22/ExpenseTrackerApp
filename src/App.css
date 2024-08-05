@@ -74,7 +74,7 @@
     }
   
     .expense-form {
-      width: 30%; /* Fixed width for the form on larger screens */
+      width: 40%; /* Fixed width for the form on larger screens */
     }
   
     .expense-list {
