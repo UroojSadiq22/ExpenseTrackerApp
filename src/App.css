@@ -1,41 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 62.5%; /* 1rem = 10px *//*
-  }
-  
-  body {
-    background-image: url(./ui/backgroundimage.jpg);
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0 , 0, 0.6);
-    color: white;
-    width: 100vw;
-    min-height :100vh;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-    font-size: 1.6rem;
-    
-  }
-  .modules {
-    display: flex;
-  }
-  
-  .expense-form {
-    width: 28%; /* Fixed width for the form *//*
-    margin: 10px;
-  }
-  
-  .expense-list {
-    flex-grow: 1; /* Allow the list to take up the remaining space *//*
-    margin: 10px;
-  }
-  
-   */
-   * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,7 +29,7 @@
   .expense-form,
   .expense-list {
     width: 100%; /* Full width on smaller screens */
-    margin: 1rem 0; /* Adjust margin for mobile screens */
+    margin: 1rem 1rem; /* Adjust margin for mobile screens */
   }
   
   @media (min-width: 768px) {
